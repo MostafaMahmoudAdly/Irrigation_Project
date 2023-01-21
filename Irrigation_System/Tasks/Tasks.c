@@ -26,7 +26,7 @@ u8 Global_Soil_percent;
 u8 Global_WaterLevel_percent;
 
 /*	Define Semaphore */
-extern xSemaphoreHandle Sem;
+xSemaphoreHandle Sem;
 
 void soil_moisture_sensor_ISR(void)
 {
