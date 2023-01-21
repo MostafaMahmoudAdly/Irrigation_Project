@@ -12,13 +12,13 @@
 /******************************************************************/
 /****************  		Global Variable			 ******************/
 /******************************************************************/
-u16 Global_SoilMoisture_Data;
-u16 Global_WaterLevel_Data;
-u8 Global_Soil_percent;
-u8 Global_WaterLevel_percent;
+extern u16 Global_SoilMoisture_Data;
+extern u16 Global_WaterLevel_Data;
+extern u8 Global_Soil_percent;
+extern u8 Global_WaterLevel_percent;
 
 /*	Define Semaphore */
-xSemaphoreHandle Sem;
+extern xSemaphoreHandle Sem;
 
 /******************************************************************/
 /************  		Functions Prototypes			 **************/
