@@ -9,9 +9,9 @@
 #define TASKS_TASKS_INTERFACE_H_
 
 
-/******************************************************************/
-/****************  		Global Variable			 ******************/
-/******************************************************************/
+/*************************************************************************/
+/****************  		Global Variable declaration			  ******************/
+/*************************************************************************/
 extern u16 Global_SoilMoisture_Data;
 extern u16 Global_WaterLevel_Data;
 extern u8 Global_Soil_percent;
@@ -21,7 +21,7 @@ extern u8 Global_WaterLevel_percent;
 extern xSemaphoreHandle Sem;
 
 /******************************************************************/
-/************  		Functions Prototypes			 **************/
+/************  	    	Functions Prototypes			     **************/
 /******************************************************************/
 void soil_moisture_sensor_ISR(void);
 void soil_moisture_sensor(void);
