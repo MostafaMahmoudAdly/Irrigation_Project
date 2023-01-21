@@ -17,6 +17,14 @@
 #include "Tasks_Interface.h"
 #include "avr/delay.h"
 
+/******************************************************************/
+/****************  	Global Variable		 ******************/
+/******************************************************************/
+u16 Global_SoilMoisture_Data;
+u16 Global_WaterLevel_Data;
+u8 Global_Soil_percent;
+u8 Global_WaterLevel_percent;
+
 void soil_moisture_sensor_ISR(void)
 {
 	/*	Local Variable for new value of Global_Soil_percent	*/
